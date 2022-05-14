@@ -7,7 +7,7 @@ services:
       context: ./node
     ports:
       - "8080:8080"
-    container_name: Api
+    container_name: api
   react-ui:
     build:
       context: ./react-app
