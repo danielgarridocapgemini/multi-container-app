@@ -7,3 +7,10 @@ services:
       context: ./node
     ports:
       - "8080:8080"
+    container_name: Api
+  react-ui:
+    build:
+      context: ./react-app
+    ports:
+    - 3000:3000
+    stdnin_open: true
