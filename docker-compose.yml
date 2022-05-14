@@ -13,4 +13,4 @@ services:
       context: ./react-app
     ports:
     - 3000:3000
-    stdnin_open: true
+    stdin_open: true
