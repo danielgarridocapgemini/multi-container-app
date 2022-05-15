@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <React.Fragment>
-     <h1>Hay: {items} en la base de datos de Redis</h1><hr/>
+     <h1>Hay: {items} elementos en la base de datos de Redis</h1><hr/>
       <button onClick= {displayItems}>Añadir</button>
     </React.Fragment>
   );
